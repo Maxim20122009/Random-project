@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<center>
+<form name="fgame">
+
+<input type="text" name="output" value="" size="70"><br>
+<br><br>
+Введите число:
+</input>
+<input type="text" name="input" value='' size="20">
+Подсказка:
+</input>
+<input type="text" name="highlow" value='' size="20">
+Количество попыток:
+</input>
+<input type="text" name="tries" value="0" size="3">
+<br><br>
+<input type="button" name="one"  value="  1  " onclick="fgame.input.value += 1">
+</input>
+<input type="button" name="one"  value="  2  " onclick="fgame.input.value += 2">
+</input>
+<input type="button" name="one"  value="  3  " onclick="fgame.input.value += 3">
+</input>
+<br>
+<input type="button" name="one"  value="  4  " onclick="fgame.input.value += 4">
+</input>
+<input type="button" name="one"  value="  5  " onclick="fgame.input.value += 5">
+</input>
+<input type="button" name="one"  value="  6  " onclick="fgame.input.value += 6">
+</input>
+<br>
+<input type="button" name="one"  value="  7  " onclick="fgame.input.value += 7">
+</input>
+<input type="button" name="one"  value="  8  " onclick="fgame.input.value += 8">
+</input>
+<input type="button" name="one"  value="  9  " onclick="fgame.input.value += 9">
+</input>
+<br>
+<input type="button" name="one"  value="  0   " onclick="fgame.input.value += 0">
+</input>
+<br><br>
+<input type="button" name="doit" value=" Верно?
+" onclick="game(fgame.input.value); fgame.input.value=''">
+</input>
+<input type="button" name="init1" value="      Старт!    " onclick="init();">
+</input>
+</form>
+</center>
+
+
+<script src="script.js"></script>
+</body>
+</html>
